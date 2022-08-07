@@ -35,7 +35,12 @@ draws the particles and records the animation
 
  
 |Field Name|Description|
+<<<<<<< HEAD
 |:---:|:---:||**This.p**|position of the particle|
+=======
+|:---:|:---:|
+|**This.p**|position of the particle|
+>>>>>>> f746bd602a078daabf4132bd9e895593dcd4b7eb
 |**This.v**|velocity of the particle|
 |**This.color**|color of the particle|
 |**This.r**|radius of the particle|
