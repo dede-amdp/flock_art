@@ -35,7 +35,8 @@ draws the particles and records the animation
 
  
 |Field Name|Description|
-|:---:|:---:||**This.p**|position of the particle|
+|:---:|:---:|
+|**This.p**|position of the particle|
 |**This.v**|velocity of the particle|
 |**This.color**|color of the particle|
 |**This.r**|radius of the particle|
@@ -114,7 +115,8 @@ it simply holds two points to define a rectangle: point A is the top-left vertex
 
  
 |Field Name|Description|
-|:---:|:---:||**This.a**|coordinates of point A (top-left)|
+|:---:|:---:|
+|**This.a**|coordinates of point A (top-left)|
 |**This.b**|coordinates of point B (bottom-right)|
 |**This.w**|width of the rectangle|
 |**This.h**|height of the rectangle|
@@ -132,7 +134,8 @@ This data structure subdivides (in this case) the canvas in smaller sections so 
 
  
 |Field Name|Description|
-|:---:|:---:||**This.divided**|boolean used to state if the Quadtree has been divided|
+|:---:|:---:|
+|**This.divided**|boolean used to state if the Quadtree has been divided|
 |**This.children**|javascript object containing the 4 Quadtrees in which the Quadtree will be split if the data exceeds the capacity|
 |**This.data**|list of elements that the Quadtree holds if it's not split|
 
