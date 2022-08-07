@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.2/p5.min.js"
+        integrity="sha512-rCZdHNB0AePry6kAnKAVFMRfWPmUXSo+/vlGtrOUvhsxD0Punm/xWbEh+8vppPIOzKB9xnk42yCRZ5MD/jvvjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <!-- CCapture.js-->
+    <script src="./src/CCapture.js"></script>
+    <script src="./src/webm-writer-0.2.0.js"></script>
+    <script src="./src/download.js"></script>
+    <script>
+        // === CCapture Object ===
+        var capturer = new CCapture({
+            format: 'webm',
+            framerate: 60,
+            verbose: false
+        });
+
+    </script>
+</body>
+<script src="./res/quadtree.js"></script>
+<script src="./res/particle.js"></script>
+<script src="./res/main.js"></script>
+
+</html>
