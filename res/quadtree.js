@@ -55,8 +55,8 @@ class Rect {
 @notes: This data structure subdivides (in this case) the canvas in smaller sections so that only part of all the entities in the flock simulation will be considered in the distance check
 @inputs:
 - Rect rect: rectangle that defines the area covered by the Quadtree;
-- int capacity: capacity of the Quadtree before its division;
-- bool limit_area: boolean used to decide if the division of the Quadtree has to be stopped if its area is less than 1;
+- (optional) int capacity: capacity of the Quadtree before its division;
+- (optional) bool limit_area: boolean used to decide if the division of the Quadtree has to be stopped if its area is less than 1;
 @this.divided: boolean used to state if the Quadtree has been divided
 @this.children: javascript object containing the 4 Quadtrees in which the Quadtree will be split if the data exceeds the capacity
 @this.data: list of elements that the Quadtree holds if it's not split
